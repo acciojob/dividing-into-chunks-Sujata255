@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divide Array into Chunks</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+        <h1>Divide Array into Chunks</h1>
 
+        <label for="arrayInput">Enter array (comma-separated):</label>
+        <input type="text" id="arrayInput" placeholder="e.g., 1,2,3,4,1,0,2,2">
+
+        <label for="maxSumInput">Enter maximum sum for each chunk:</label>
+        <input type="number" id="maxSumInput" placeholder="e.g., 5">
+
+        <button onclick="divideArray()">Divide into Chunks</button>
+
+        <div id="resultOutput" class="output"></div>
+    </div>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
